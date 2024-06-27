@@ -53,7 +53,7 @@
       select * from trade_board order by idx
     </select>
 
-    <select id="tradeDetail" resultType="TradeVO">
+    <select id="detailTrade" resultType="TradeVO">
       select * from trade_board where idx = #{idx}
     </select>
 
@@ -62,5 +62,7 @@
     </delete>   
 
     <!-- 교통정보 -->
+
+    
 
 </mapper>

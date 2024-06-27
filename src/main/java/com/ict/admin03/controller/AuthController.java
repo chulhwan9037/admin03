@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ict.admin03.service.AdminService;
 import com.ict.admin03.service.AuthService;
-import com.ict.admin03.service.UserService;
 import com.ict.admin03.vo.AdminVO;
 
 import org.springframework.beans.factory.annotation.Autowired;
