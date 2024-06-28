@@ -48,6 +48,10 @@
       VALUES (#{id}, #{pw}, #{title}, #{content},  NOW(), NOW()) 
     </insert>
 
+    <delete id="deleteBoard" parameterType="Integer">
+      delete from free_board where idx = #{idx}
+    </delete>
+
     <!-- 중고거래 2 -->
     <select id="tradeList" resultType="TradeVO">
       select * from trade_board order by idx
